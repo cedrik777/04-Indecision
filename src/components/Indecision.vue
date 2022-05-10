@@ -12,7 +12,7 @@
         v-model="question"
         >
         
-        <p>Recuerda terminar on un signo de interrogacion (?)</p>
+        <p>Recuerda terminar con un signo de interrogación (?)</p>
 
         <div v-if="isValidQuestion">
             <h2>{{question}}</h2>
